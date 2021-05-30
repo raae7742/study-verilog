@@ -1,0 +1,1 @@
+xst -ise "C:/sad/ise/ise.ise" -intstyle ise -ifn SAD_Top.xst -ofn SAD_Top.syr

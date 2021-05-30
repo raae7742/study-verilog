@@ -1,0 +1,13 @@
+SIM=mti_pe
+LIB=simprim
+LANG=verilog
+MAPPED_LIB=simprims_ver
+SMART_LIB=FALSE
+LIB_PATH=C:\sad\ise
+SIM_VERSION=Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+XIL_VERSION=8.2i
+NUM_ERRORS=0
+NUM_WARNINGS=0
+TIMESTAMP=Sun May 30 17:19:09 2021
+LOGFILE=C:\sad\ise\simprims_ver\cxl_simprim.log
+SMARTLOGFILE=DEFAULT

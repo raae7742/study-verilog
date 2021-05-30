@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/sad/ise
+T_opt
+!s110 1622362808
+VNbboadAUz5Bj<K0Bl`T<<2
+04 9 4 work Testbench fast 0
+04 4 4 work glbl fast 0
+=1-080027f44ebc-60b34ab8-97-d3c
+o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver
+n@_opt
+OL;O;10.3;59
+R0
+vdp_sram_coregen
+Z1 !s110 1622363445
+!i10b 1
+!s100 ocVKYShLVf`iDM@:dB;J72
+ITa8Cg_H?1X4M:ZlFnJ?0n3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1622362794
+8dp_sram_coregen.v
+Fdp_sram_coregen.v
+L0 40
+Z3 OL;L;10.3;59
+r1
+!s85 0
+31
+!s108 1622363445.950000
+!s107 dp_sram_coregen.v|
+!s90 -reportprogress|300|dp_sram_coregen.v|
+!i111 0
+Z4 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vglbl
+Z5 !s110 1622363446
+!i10b 1
+!s100 ch96nIZPOE:ZKMj=UUkG^3
+I]ZDgD4BFm[m>>`BAgZMz_0
+R2
+R0
+w1147889348
+8C:/Xilinx/verilog/src/glbl.v
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1622363446.247000
+!s107 C:/Xilinx/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/verilog/src/glbl.v|
+!i111 0
+R4
+vSAD
+R1
+!i10b 1
+!s100 Y05H08PbnaieQX0^:KWD22
+ICJ8fEOgcIQQmC@f<h0`L=2
+R2
+R0
+Z6 w1622362550
+8../src/sad_beh.v
+F../src/sad_beh.v
+Z7 L0 11
+R3
+r1
+!s85 0
+31
+!s108 1622363445.856000
+!s107 ../src/sad_beh.v|
+!s90 -reportprogress|300|../src/sad_beh.v|
+!i111 0
+R4
+n@s@a@d
+vSAD_Top
+R5
+!i10b 1
+!s100 ;8I;oLnOdG1m4;CE:kNOd0
+I_g`b`3PEL120[_K9`Rm_10
+R2
+R0
+R6
+8../src/sad_top.v
+F../src/sad_top.v
+L0 12
+R3
+r1
+!s85 0
+31
+!s108 1622363446.059000
+!s107 ../src/sad_top.v|
+!s90 -reportprogress|300|../src/sad_top.v|
+!i111 0
+R4
+n@s@a@d_@top
+vTestbench
+R5
+!i10b 1
+!s100 BYFh;BkCSm:n<eVk=cJl60
+I^516fc2>ID:aa^ZF[0X?<1
+R2
+R0
+R6
+8../src/sad_TB.v
+F../src/sad_TB.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1622363446.168000
+!s107 ../src/sad_TB.v|
+!s90 -reportprogress|300|../src/sad_TB.v|
+!i111 0
+R4
+n@testbench

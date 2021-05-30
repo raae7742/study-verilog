@@ -1,0 +1,20 @@
+# Date: Sun May 30 07:53:58 2021
+SET flowvendor = Other
+SET vhdlsim = False
+SET verilogsim = True
+SET workingdirectory = c:\sad\coregen\tmp
+SET speedgrade = -5
+SET simulationfiles = Behavioral
+SET asysymbol = False
+SET addpads = False
+SET device = xc2v8000
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff1152
+SET createndf = False
+SET designentry = Verilog
+SET devicefamily = virtex2
+SET formalverification = False
+SET removerpms = False
+

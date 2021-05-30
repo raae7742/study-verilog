@@ -1,0 +1,3 @@
+verilog work "../src/sad_beh.v"
+verilog work "dp_sram_coregen.v"
+verilog work "../src/sad_top.v"

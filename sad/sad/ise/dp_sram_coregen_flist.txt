@@ -1,0 +1,6 @@
+# Output products list for <dp_sram_coregen>
+dp_sram_coregen.edn
+dp_sram_coregen.v
+dp_sram_coregen.veo
+dp_sram_coregen.xco
+dp_sram_coregen_flist.txt
