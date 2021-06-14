@@ -1,0 +1,81 @@
+# Reading C:/modeltech64_10.3/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.3 Jan  7 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do Testbench.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+# Start time: 07:16:30 on Jun 14,2021
+# vlog -reportprogress 300 ../src/final_one.v 
+# -- Compiling module FINAL
+# 
+# Top level modules:
+# 	FINAL
+# End time: 07:16:30 on Jun 14,2021
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+# Start time: 07:16:30 on Jun 14,2021
+# vlog -reportprogress 300 dp_sram_coregen.v 
+# -- Compiling module dp_sram_coregen
+# 
+# Top level modules:
+# 	dp_sram_coregen
+# End time: 07:16:30 on Jun 14,2021
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+# Start time: 07:16:30 on Jun 14,2021
+# vlog -reportprogress 300 ../src/final_top.v 
+# -- Compiling module FINAL_Top
+# 
+# Top level modules:
+# 	FINAL_Top
+# End time: 07:16:30 on Jun 14,2021
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+# Start time: 07:16:30 on Jun 14,2021
+# vlog -reportprogress 300 ../src/final_TB.v 
+# -- Compiling module Testbench
+# 
+# Top level modules:
+# 	Testbench
+# End time: 07:16:30 on Jun 14,2021
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.3 Compiler 2014.01 Jan  7 2014
+# Start time: 07:16:30 on Jun 14,2021
+# vlog -reportprogress 300 C:/Xilinx/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 07:16:30 on Jun 14,2021
+# Errors: 0, Warnings: 0
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps Testbench glbl 
+# Start time: 07:16:30 on Jun 14,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.Testbench(fast)
+# Loading xilinxcorelib_ver.BLKMEMDP_V6_3(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: (vish-4014) No objects found matching '/glbl/GSR'.
+# Error in macro ./Testbench.fdo line 14
+# (vish-4014) No objects found matching '/glbl/GSR'.
+#     while executing
+# "add wave *"
+add wave -r sim:/Testbench/CompToTest/*
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 2 of file "../sw/sw_result.txt". (Current address [1], address range [0])    : ../src/final_TB.v(48)
+#    Time: 0 ps  Iteration: 0  Instance: /Testbench
+# FINAL is 00604 that is equal to 00604
+# ** Note: $stop    : ../src/final_TB.v(88)
+#    Time: 777990 ns  Iteration: 1  Instance: /Testbench
+# Break at ../src/final_TB.v line 88
+# End time: 07:17:01 on Jun 14,2021
+# Errors: 2, Warnings: 1
